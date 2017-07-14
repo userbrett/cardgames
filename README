@@ -1,0 +1,22 @@
+README - cardgames
+
+The card games project supports bundling multiple card games into one package.
+Currently, only one example card game is present - Blackjack.
+
+To run it:
+
+    build$ ./build.sh
+    build$ java -jar cardgames.jar
+
+
+Additionally, there is a standalone class:  DeckStuff
+This provides just a card deck.
+
+To run it:
+    $ javac src/DeckStuff.java 
+    $ java  src/DeckStuff 
+
+
+TODO:
+    1. Add another game.
+
